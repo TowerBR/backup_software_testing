@@ -19,6 +19,6 @@ The first test I registered here was # 4, only with Duplicacy. The previous ones
 
 # Conclusions so far
 
-* Duplicati has a serious point of failure represented by the use of local databases. The time expended (by the software and by the users) dealing with repairs, reconstructing, etc is excessive. But the worst thing is that database crashes reduce one of the most essential features of backup software: reliability. So I suspended the use of the software. But I believe that in the future it might be interesting to evaluate it again.
+* Duplicati has a serious point of failure represented by the use of local databases. The time expended (by the software and by the users) dealing with repairs, reconstructing, etc is excessive. But the worst thing is that these database crashes reduce one of the most essential features of backup software: reliability. So I suspended the use of the software. But I believe that in the future it might be interesting to evaluate it again.
 
 * For backup of Evernote repositories with Duplicacy, the best configuration seems to be the use of 1M fixed chunks (for a ~4Gb database). Although there is still a problem with the backup after the Evernote "optimize" command is performed, this impact can be minimized by synchronizing the execution of this command and the Duplicacy prune commands.
