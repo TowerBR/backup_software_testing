@@ -30,7 +30,7 @@ And the upload time was also consistently smaller:
 
 ![Graph03][3]
 
-======================================================================================================================
+## 
 
 Then on the 5th day the command was run to "optimize" the Evernote database, which basically consists of a reindexing.
 
