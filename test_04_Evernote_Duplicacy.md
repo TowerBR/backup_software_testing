@@ -76,7 +76,7 @@ The result was that 2,664 chunks (out of a total of 2,667) were reuploaded:
 
 **1 Mb VAR CHUNK STORAGE:**
 
-| Storage size by Duplicati   log     (kb) | Storage size by Rclone     (kb) | Storage increase     (kb)  | Version | uploaded     (All chunks      log line) (kb) | backup time |
+| Storage size by Duplicacy   log     (kb) | Storage size by Rclone     (kb) | Storage increase     (kb)  | Version | uploaded     (All chunks      log line) (kb) | backup time |
 |------------------------------------------|---------------------------------|----------------------------|---------|----------------------------------------------|-------------|
 | 3.313.000                                | 2.945.953                       |                            | 1       |                                              | 00:03:38    |
 | 3.315.000                                | 2.945.953                       | 0                          | 2       | 102.846                                      | 00:02:16    |
@@ -86,7 +86,7 @@ The result was that 2,664 chunks (out of a total of 2,667) were reuploaded:
 
 **1 Mb FIX CHUNK STORAGE:**
 
-| Storage size by Duplicati   log     (kb) | Storage size by Rclone     (kb) | Storage increase     (kb)  | Version | uploaded     (All chunks      log line) (kb) | backup time |
+| Storage size by Duplicacy   log     (kb) | Storage size by Rclone     (kb) | Storage increase     (kb)  | Version | uploaded     (All chunks      log line) (kb) | backup time |
 |------------------------------------------|---------------------------------|----------------------------|---------|----------------------------------------------|-------------|
 | 3.313.000                                | 2.946.272                       |                            | 1       |                                              | 00:03:23    |
 | 3.313.000                                | 2.946.272                       | 0                          | 2       | 42.151                                       | 00:00:11    |
