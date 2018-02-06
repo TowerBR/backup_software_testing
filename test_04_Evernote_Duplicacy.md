@@ -13,6 +13,7 @@ This is a test to compare Duplicacy performance backing up a Evernote repository
 * Perform the full initial backup of the entire folder.
 * Proceed with normal daily use for a few days, that is, add/edit some notes, representing a few kb of changes per day, and run a daily incremental backup.
 * At the end, run the internal "optimize" command from Evernote to evaluate the impact.
+* The repository and storage sizes were measured with the Rclone [Rclone.org](http://www.rclone.org)
 
 ## Results
 
