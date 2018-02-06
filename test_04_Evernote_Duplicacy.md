@@ -47,4 +47,7 @@ The result was that 2,664 chunks (out of a total of 2,667) were reuploaded:
   [1]: images/teste04/evernote1.png
   [2]: images/teste04/evernote2.png
   [3]: images/teste04/evernote3.png  
+  [3]: images/teste04/evernote3.png  
+  [4]: images/teste04/evernote4.png  
+  [5]: images/teste04/evernote5.png  
 
