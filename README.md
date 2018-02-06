@@ -42,9 +42,29 @@ Evernote repository
 Duplicacy with 1 Mb fixed chunks vs. 1 Mb variable chunks  
 [(Here)](https://github.com/TowerBR/backup_software_testing/blob/master/test_04_Evernote_Duplicacy.md)
 
+**Executing / to be executed:**
+
+5. Test #5:
+Mbox files repository  
+Duplicacy with 1 Mb variable chunks  
+
+6. Test #6:
+Mbox files repository  
+Duplicacy with 1 Mb fixed chunks vs. 1 Mb variable chunks  
+
+7. Test #7:
+Mbox files repository  
+Duplicacy with 2 separated jobs using include/exclude:   
+  1 job with 1 Mb fixed chunks for mbox files and    
+  1 job with 1Mb variable chunks for the rest   
+
+8. Test #8:
+Veracrypt volume  
+Duplicacy with ????
+
 
 # Conclusions so far
 
-* Duplicati has a serious point of failure represented by the use of local databases. The time expended (by the software and by the users) dealing with repairs, reconstructing, etc is excessive. But the worst thing is that these database crashes reduce one of the most essential features of backup software: reliability. So I suspended the use of the software. But I believe that in the future it might be interesting to evaluate it again.
+* Duplicati has a serious point of failure represented by the use of local databases. The time expended (by the software and by the users) dealing with repairing, rebuilding, etc is excessive. But the worst thing is that these database crashes reduce one of the most essential features of backup software: reliability. So I suspended the use of the software. But I believe that in the future it might be interesting to evaluate it again.
 
 * For backup of Evernote repositories with Duplicacy, the best configuration seems to be the use of 1 Mb fixed chunks (for a ~4Gb database). Although there is still a problem with the backup after the Evernote "optimize" command is performed, this impact can be minimized by synchronizing the execution of this command and the Duplicacy prune commands.
