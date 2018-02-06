@@ -1,6 +1,6 @@
 # Introduction
 
-I've been using Rclone [(www.rclone.org)](http://www.rclone.org) for some time to back up 80% of my files. I use the ```rclone sync``` command with the ```--backup-dir``` parameter, which allows me to do incremental backups without problems. Even though it does not have a *full snapshot* functionality, it's a great tool, very stable, predictable, and reliable.
+I've been using Rclone [(www.rclone.org)](http://www.rclone.org) for some time to back up 80% of my files (documents, spreadsheets, images, etc). I use the ```rclone sync``` command with the ```--backup-dir``` parameter, which allows me to do incremental backups without problems. Even though it does not have a *full snapshot* functionality, it's a great tool, very stable, predictable, and reliable.
 
 The remaining 20% are large files that have minor daily changes. Examples: Veracrypt volumes, Evernote databases, mbox files, and some other SQL databases.
 
