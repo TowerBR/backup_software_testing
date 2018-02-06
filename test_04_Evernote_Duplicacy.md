@@ -20,7 +20,12 @@ In the first days, running the two backup jobs showed that the job with fixed ch
 
 ![Graph01][1]
 
+Uploads were also smaller with fixe chunks
+
+![Graph02][3]
+
+
   [1]: images/teste04/evernote1.png
-  [2]: http://i121.photobucket.com/albums/o206/towerbr/backup_tests/CY_Evernote_test01/evernote1_zpsz6kadwud.png
+  [3]: images/teste04/evernote2.png
   
 
