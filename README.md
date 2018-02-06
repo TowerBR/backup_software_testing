@@ -18,6 +18,31 @@ I started testing both with some test jobs, and this repository here contains th
 
 The first test I registered here was # 4, only with Duplicacy. The previous ones are in the respective product forums and I will bring them here. And I still want to do other tests.
 
+# Tests
+
+1. Test #1:
+Evernote repository  
+Duplicati default configuration vs.  
+Duplicacy default configuration  
+[(Duplicati forum)](https://forum.duplicati.com/t/duplicati-2-vs-duplicacy-2/592/109?u=towerbr)
+
+2. Test #2:
+Evernote repository  
+Duplicacy with 1M kb fixed chunks and 128 kb fixed chunks   
+[(Duplicacy forum, starting at Jan 22 6:53AM 2018)](https://duplicacy.com/issue?id=5747610597982208)  
+
+3. Test #3:
+Evernote repository  
+Duplicati default configuration vs.  
+Duplicacy with 128 kb fixed chunks  
+[(Duplicati forum)](https://forum.duplicati.com/t/duplicati-2-vs-duplicacy-2/592/113?u=towerbr)
+
+4. Test #4:
+Evernote repository  
+Duplicacy with 1 Mb fixed chunks vs. 1 Mb variable chunks  
+[(Here)](https://github.com/TowerBR/backup_software_testing/blob/master/test_04_Evernote_Duplicacy.md)
+
+
 # Conclusions so far
 
 * Duplicati has a serious point of failure represented by the use of local databases. The time expended (by the software and by the users) dealing with repairs, reconstructing, etc is excessive. But the worst thing is that these database crashes reduce one of the most essential features of backup software: reliability. So I suspended the use of the software. But I believe that in the future it might be interesting to evaluate it again.
