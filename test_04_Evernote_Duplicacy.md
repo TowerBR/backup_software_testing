@@ -17,7 +17,8 @@ This is a test to compare Duplicacy performance backing up a Evernote repository
 ## Results
 
 In the first days, running the two backup jobs showed that the job with fixed chunks seems to make better use of storage space than the variable chunks job:
+
 ![Graph01][1]
 
-
-  [1]: http://i121.photobucket.com/albums/o206/towerbr/backup_tests/CY_Evernote_test01/evernote1_zpsz6kadwud.png
+  [1]: backup_software_testing/images/teste04/evernote1.png
+  [2]: http://i121.photobucket.com/albums/o206/towerbr/backup_tests/CY_Evernote_test01/evernote1_zpsz6kadwud.png
