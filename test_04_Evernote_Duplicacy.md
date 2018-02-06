@@ -26,7 +26,8 @@ Uploads were also smaller with fixed chunks
 
 ![Graph02][2]
 
-*(The above chart does not show day 1, as there is no "increase" on this day.)*
+*Note 1: The above chart does not show day 1, as there is no "increase" on this day.*
+*Note 2: At day 2, even Evernote not being executed, there was some upload in the backup.
 
 And the upload time was also consistently smaller:
 
@@ -58,3 +59,13 @@ The result was that 2,664 chunks (out of a total of 2,667) were reuploaded:
   [5]: images/teste04/evernote5.png  
   [6]: images/teste04/evernote6.png  
 
+## Full data
+
+
+| Day | Repository size     by Rclone     (kb) | Repository increase     (kb) | Storage size by Duplicati log     (kb) | 1M var - storage size by   Rclone     (kb) | Storage increase     (kb)  | 1M var - uploaded     (All chunks      log line) (kb) | 1M var - backup time | Storage size by Duplicati log     (kb) | 1M fix - storage size by   Rclone     (kb) | Storage increase     (kb)  | 1M fix - uploaded     (All chunks      log line) (kb) | 1M fix - backup time |
+|-----|----------------------------------------|------------------------------|----------------------------------------|--------------------------------------------|----------------------------|-------------------------------------------------------|----------------------|----------------------------------------|--------------------------------------------|----------------------------|-------------------------------------------------------|----------------------|
+| 01  | 3.474.331                              |                              | 3.313.000                              | 2.945.953                                  |                            |                                                       | 00:03:38             | 3.313.000                              | 2.946.272                                  |                            |                                                       | 00:03:23             |
+| 02  | 3.474.331                              | 0                            | 3.315.000                              | 2.945.953                                  | 0                          | 102.846                                               | 00:02:16             | 3.313.000                              | 2.946.272                                  | 0                          | 42.151                                                | 00:00:11             |
+| 03  | 3.476.075                              | 1.744                        | 3.317.000                              | 3.328.283                                  | 382.330                    | 270.521                                               | 00:02:12             | 3.315.000                              | 3.109.595                                  | 163.323                    | 117.343                                               | 00:01:37             |
+| 04  | 3.476.433                              | 358                          | 3.318.000                              | 3.479.856                                  | 151.573                    | 148.020                                               | 00:02:23             | 3.315.000                              | 3.169.552                                  | 59.957                     | 58.550                                                | 00:01:40             |
+| 05  | 3.474.758                              | -1.675                       | 3.317.000                              | 6.417.636                                  | 2.937.780                  | 2.801.000                                             | 00:04:30             | 3.314.000                              | 6.107.636                                  | 2.938.084                  | 2.801.000                                             | 00:03:20             |
