@@ -4,7 +4,7 @@ I've been using Rclone [(www.rclone.org)](http://www.rclone.org) for some time t
 
 The remaining 20% are large files that have minor daily changes. Examples: Veracrypt volumes, Evernote databases, mbox files, and some other SQL databases.
 
-The ```rclone sync``` command does not apply well to backing up this type of file, because as it is a *sync* command, it would create "full" copies of the files every day, exponentially increasing the use of remote backup space. If you are using a cloud backup there is still a problem with the associated upload time. To back up this files you need software that has the ability to do deduplication and/or delta copying.
+The ```rclone sync``` command does not apply well to backing up this type of file, because as it is a *sync* command, it would create "full" copies of the files every day, exponentially increasing the use of remote backup space. If you are using a cloud backup there is still a problem with the associated upload time. To back up this files you need a software that has the ability to do deduplication and/or delta copying.
 
 So, after looking a little, I ended up with two options: 
 * Duplicati [(www.duplicati.com)](http://www.duplicati.com) [(github.com/duplicati/duplicati)](https://github.com/duplicati/duplicati)
