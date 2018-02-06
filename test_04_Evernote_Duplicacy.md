@@ -25,6 +25,7 @@ In the first days, running the two backup jobs showed that the job with fixed ch
 Uploads were also smaller with fixed chunks
 
 ![Graph02][2]
+*(The above chart does not show day 1, as there is no "increase" on this day.)*
 
 And the upload time was also consistently smaller:
 
