@@ -62,6 +62,11 @@ Duplicacy with 2 separated jobs using include/exclude:
 Veracrypt volume  
 Duplicacy with ????
 
+9. Test #9:
+VirtualBox VM's
+Duplicacy with ????
+
+
 
 # Conclusions so far
 
