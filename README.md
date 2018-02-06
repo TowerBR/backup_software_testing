@@ -24,23 +24,23 @@ The first test I registered here was # 4, only with Duplicacy. The previous ones
 Evernote repository  
 Duplicati default configuration vs.  
 Duplicacy default configuration  
-[(Duplicati forum)](https://forum.duplicati.com/t/duplicati-2-vs-duplicacy-2/592/109?u=towerbr)
+[(Duplicati forum)](http://bit.ly/2sdVLrX)
 
 2. Test #2:
 Evernote repository  
 Duplicacy with 1M kb fixed chunks and 128 kb fixed chunks   
-[(Duplicacy forum, starting at Jan 22 6:53AM 2018)](https://duplicacy.com/issue?id=5747610597982208)  
+[(Duplicacy forum, starting at Jan 22 6:53AM 2018)](http://bit.ly/2E8B9H9)  
 
 3. Test #3:
 Evernote repository  
 Duplicati default configuration vs.  
 Duplicacy with 128 kb fixed chunks  
-[(Duplicati forum)](https://forum.duplicati.com/t/duplicati-2-vs-duplicacy-2/592/113?u=towerbr)
+[(Duplicati forum)](http://bit.ly/2nOCwQh)
 
 4. Test #4:
 Evernote repository  
 Duplicacy with 1 Mb fixed chunks vs. 1 Mb variable chunks  
-[(Here)](https://github.com/TowerBR/backup_software_testing/blob/master/test_04_Evernote_Duplicacy.md)
+[(Here)](http://bit.ly/2E5Wf9a)
 
 **Executing / to be executed:**
 
