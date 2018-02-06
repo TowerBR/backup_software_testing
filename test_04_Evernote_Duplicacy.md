@@ -22,7 +22,7 @@ In the first days, running the two backup jobs showed that the job with fixed ch
 ![Graph01][1]
 
 
-Uploads were also smaller with fixe chunks
+Uploads were also smaller with fixed chunks
 
 ![Graph02][2]
 
@@ -30,7 +30,7 @@ And the upload time was also consistently smaller:
 
 ![Graph03][3]
 
-
+====================================
 Then on the 5th day the command was run to "optimize" the Evernote database, which basically consists of a reindexing.
 
 The result was that 2,664 chunks (out of a total of 2,667) were reuploaded:
