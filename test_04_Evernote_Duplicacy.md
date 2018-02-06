@@ -22,6 +22,7 @@ In the first days, the execution of the two jobs showed that fixed chunks seems 
 ![Graph01][1]
 
 
+
 Uploads were also smaller with fixed chunks
 
 ![Graph02][2]
@@ -29,6 +30,7 @@ Uploads were also smaller with fixed chunks
 *Note 1: The above chart does not show day 1, as there is no "increase" on this day.*
 
 *Note 2: At day 2, even Evernote not being executed, there was some upload in the backup.*
+
 
 And the upload time was also consistently smaller:
 
