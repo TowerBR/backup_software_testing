@@ -42,8 +42,12 @@ The result was that 2,664 chunks (out of a total of 2,667) were reuploaded:
 
 ![Graph06][6]
 
+## Conclusions
 
+* The use of fixed-size chunks provides better performance for incremental backups of small daily changes.
+* Neither setups (fixed and variable chunks) fits well when the database is reindexed. But in this case it is not a limitation of Duplicacy because the entire database must have been modified. Using the optimization command in sync with the Duplicacy prune commands may improve the use of storage space.
 
+## 
 
   [1]: images/teste04/evernote1.png
   [2]: images/teste04/evernote2.png
