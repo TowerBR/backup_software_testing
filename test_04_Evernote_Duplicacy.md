@@ -1,5 +1,3 @@
-[![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_04?pixel)](https://github.com/igrigorik/ga-beacon)
-
 ## Test #4
 
 ## Objective
@@ -97,3 +95,6 @@ The result was that 2,664 chunks (out of a total of 2,667) were reuploaded:
 | 3.315.000                                | 3.109.595                       | 163.323                    | 3       | 117.343                                      | 00:01:37    |
 | 3.315.000                                | 3.169.552                       | 59.957                     | 4       | 58.550                                       | 00:01:40    |
 | 3.314.000                                | 6.107.636                       | 2.938.084                  | 5       | 2.801.000                                    | 00:03:20    |
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_04?pixel)](https://github.com/igrigorik/ga-beacon)
