@@ -40,7 +40,7 @@ Duplicacy with 128 kb fixed chunks
 4. Test #4:
 Evernote repository  
 Duplicacy with 1 Mb fixed chunks vs. 1 Mb variable chunks  
-[(Here)](http://bit.ly/2E5Wf9a)
+[(test_04_Evernote_Duplicacy.md](http://bit.ly/2E5Wf9a) above)
 
 **Executing / to be executed:**
 
