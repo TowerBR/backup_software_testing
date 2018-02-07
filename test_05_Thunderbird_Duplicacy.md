@@ -2,7 +2,7 @@
 
 ## Objective
 
-The purpose of this test is to evaluate whether the configuration of variable chunks with 1 MB applies well for the backup of a repository with a Thunderbird profile. Test 04 showed that fixed 1Mb chunk works well for databases (and there are some SQLite files in a TB profile), but most of the repository consists of Mbox files, which are text files with "stacked" messages, .
+The purpose of this test is to evaluate if the configuration of variable chunks with 1 MB applies well for the backup of a repository with a Thunderbird profile. Test 04 showed that fixed 1Mb chunk works well for databases (and there are some SQLite files in a TB profile), but most of the repository consists of Mbox files, which are text files with "stacked" messages, .
 
 ## Test parameters
 
