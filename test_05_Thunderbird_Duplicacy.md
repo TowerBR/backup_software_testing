@@ -28,7 +28,7 @@ On the 3rd day, a lot of messages were deleted, and the backup grew almost 2Gb, 
 
 Then, on the 4th day, the account was removed, and the repository (obviously) dropped about 8Gb (approximately the size of the account), but there were about 140 Mb of upload.
 
-In the following days the include / exclude patterns have been improved, and the graph shows the backup reduction to about 9 Gb. Basically, redundant files were no longer processed. Ex: "starred" sets, which have a copy of the original messages marked with a "star" (see Gmail)
+In the following days the include / exclude patterns have been improved, and the graph shows the backup reduction to about 9 Gb. Basically, redundant files were no longer processed. Ex: "starred" sets, which have a copy of the original messages marked with a "star" (see Gmail).
 
 ![Graph01][1]
 
@@ -45,7 +45,7 @@ The same chart above, but without the big negative bar on day 4, just to improve
 
 ## Conclusions
 
-* The orange rectangle in Figure 4 shows consistent backup behavior on "normal use" days, that is, for each increase in the repository, storage increases by 14 times the increment of the repository.
+* The orange rectangle in Figure 4 shows a recurrent backup behavior on "normal use" days, that is, for each increase in the repository, storage increases by 14 times the increment of the repository.
 
 * Deleting messages also represent an increase in storage, since a lot of new chunks seems do be generated.
 
