@@ -2,11 +2,11 @@
 
 ## Objective
 
-The purpose of this test is to evaluate if the configuration of variable chunks with 1 MB applies well for the backup of a repository with a Thunderbird profile. Test 04 showed that fixed 1Mb chunk works well for databases (and there are some SQLite files in a TB profile), but most of the repository consists of Mbox files, which are text files with "stacked" messages, .
+The purpose of this test is to evaluate if the setup with 1 MB variable chunks applies well to backup a repository with a Thunderbird profile. Test 04 showed that 1Mb fixed chunks works well for databases (and there are some SQLite files in a TB profile), but most of the repository consists of Mbox files, which are text files with "stacked" messages, .
 
 ## Test parameters
 
-* Repository: An Thunderbird profile folder, with ~23 Gb, of which the Mbox files represents 19 Gb (82%), and the largest SQLite filehas approximately 450 Mb.
+* Repository: A Thunderbird profile folder, with ~23 Gb, of which the Mbox files represents 19 Gb (82%), and the largest SQLite file has approximately 450 Mb.
 * Storage: One local folder.
 * Chunks: 1 Mb variable.
 
