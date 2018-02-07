@@ -49,6 +49,20 @@ The same chart above, but without the big negative bar on day 4, just to improve
 
 * Deleting messages also represent an increase in storage, since a lot of new chunks seems do be generated.
 
+## A plus
+
+At the end of the test, I made a restore to visually compare the impact of the include and exclude patterns.
+
+The blue blocks are the Mbox files, and the big green block underneath represents the SQLite file. Notice the size differences indicated by the arrows
+
+**REPOSITORY:**
+
+![Repository][6]
+
+**RESTORED:**
+
+![Restored][7]
+
 ## 
 
   [1]: images/teste05/tb1.png
@@ -56,6 +70,8 @@ The same chart above, but without the big negative bar on day 4, just to improve
   [3]: images/teste05/tb3.png 
   [4]: images/teste05/tb4.png 
   [5]: images/teste05/tb5.png 
+  [6]: images/teste05/tb_source_editado.png 
+  [7]: images/teste05/tb_restore_editado.png 
 
 ## Full data
 
