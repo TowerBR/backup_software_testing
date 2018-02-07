@@ -1,3 +1,5 @@
+[![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_04?pixel)](https://github.com/igrigorik/ga-beacon)
+
 ## Test #4
 
 ## Objective
