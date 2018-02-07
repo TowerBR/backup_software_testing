@@ -42,27 +42,26 @@ Evernote repository
 Duplicacy with 1 Mb fixed chunks vs. 1 Mb variable chunks  
 [(test_04_Evernote_Duplicacy.md](http://bit.ly/2E5Wf9a) above)
 
-**Executing / to be executed:**
-
 5. Test #5:
-Mbox files repository  
-Duplicacy with 1 Mb variable chunks  
+Thunderbird profile (Mbox and SQLite files)  
+Duplicacy with 1 Mb variable chunks   
+[(test_05_Thunderbird_Duplicacy.md](http://bit.ly/2EbdciE) above)  
+
+**Executing:**
 
 6. Test #6:
-Mbox files repository  
-Duplicacy with 1 Mb fixed chunks vs. 1 Mb variable chunks  
+Thunderird profile (Mbox and SQLite files)  
+Duplicacy with 3 jobs:  
+    - whole profile with 1 Mb variable chunks  vs.  
+    - database (1Mb fixed chunks) + the rest (1Mb variable chunks)  
+
+**To be executed:**
 
 7. Test #7:
-Mbox files repository  
-Duplicacy with 2 separated jobs using include/exclude:   
-  1 job with 1 Mb fixed chunks for mbox files and    
-  1 job with 1Mb variable chunks for the rest   
-
-8. Test #8:
 Veracrypt volume  
 Duplicacy with ????
 
-9. Test #9:  
+8. Test #8:  
 VirtualBox VM's  
 Duplicacy with ????
 
