@@ -50,7 +50,7 @@ Duplicacy with 1 Mb variable chunks
 **Executing:**
 
 6. Test #6:
-Thunderird profile (Mbox and SQLite files)  
+Thunderbird profile (Mbox and SQLite files)  
 Duplicacy with 3 jobs:  
     - whole profile with 1 Mb variable chunks  vs.  
     - database (1Mb fixed chunks) + the rest (1Mb variable chunks)  
