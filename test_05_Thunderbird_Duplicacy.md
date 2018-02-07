@@ -51,12 +51,11 @@ The same chart above, but without the big negative bar on day 4, just to improve
 
 ## 
 
-  [1]: images/teste04/evernote1.png
-  [2]: images/teste04/evernote2.png
-  [3]: images/teste04/evernote3.png  
-  [4]: images/teste04/evernote4.png  
-  [5]: images/teste04/evernote5.png  
-  [6]: images/teste04/evernote6.png  
+  [1]: images/teste05/tb1.png
+  [2]: images/teste05/tb2.png
+  [3]: images/teste05/tb3.png 
+  [4]: images/teste05/tb4.png 
+  [5]: images/teste05/tb5.png 
 
 ## Full data
 
@@ -77,4 +76,4 @@ The same chart above, but without the big negative bar on day 4, just to improve
 
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_04?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_05?pixel)](https://github.com/igrigorik/ga-beacon)
