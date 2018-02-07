@@ -45,7 +45,7 @@ The same chart above, but without the big negative bar on day 4, just to improve
 
 ## Conclusions
 
-* The orange rectangle in Figure 4 shows a recurrent backup behavior on "normal use" days, that is, for each increase in the repository, storage increases by 14 times the increment of the repository.
+* The orange rectangle in Figure 4 shows a recurrent backup behavior on "normal use" days, that is, **for each increase in the repository, storage increases (on average) 14 times the increment of the repository**.
 
 * Deleting messages also represent an increase in storage, since a lot of new chunks seems do be generated.
 
@@ -53,7 +53,7 @@ The same chart above, but without the big negative bar on day 4, just to improve
 
 At the end of the test, I made a restore to visually compare the impact of the include and exclude patterns.
 
-The blue blocks are the Mbox files, and the big green block underneath represents the SQLite file. Notice the size differences indicated by the arrows
+The blue blocks are the Mbox files, and the big green block below represents the SQLite file. Notice the size differences indicated by the arrows
 
 **REPOSITORY:**
 
