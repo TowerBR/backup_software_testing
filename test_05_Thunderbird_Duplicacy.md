@@ -18,6 +18,7 @@ The purpose of this test is to evaluate if the setup with 1 MB variable chunks a
 * On the 4th day will be removed one of the largest accounts.
 * Improve the inclusion / exclusion patterns during the test to evaluate the impact.
 * The repository and storage sizes were measured with Rclone [(www.rclone.org)](http://www.rclone.org).
+* No ```prune``` command will be executed.
 
 ## Results
 
@@ -30,7 +31,11 @@ Then, on the 4th day, the account was removed, and the repository (obviously) dr
 
 In the following days the include / exclude patterns have been improved, and the graph shows the backup reduction to about 9 Gb. Basically, redundant files were no longer processed. Ex: "starred" sets, which have a copy of the original messages marked with a "star" (see Gmail).
 
+The first graph shows that even with decreasing repository size (with the removal of files on the third day), the storage space does not immediately reduce without a ```prune```, which is obvious at first, but not all people realize this.
+
 ![Graph01][1]
+
+This second chart shows that the actual size (reported by Rclone) is not the same as that reported by the Duplicacy log, which is associated with chunks.
 
 ![Graph02][2]
 
