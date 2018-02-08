@@ -93,7 +93,7 @@ The blue blocks are the Mbox files, and the big green block below represents the
 | 09  | 17.505.851                             | 2.961                        | 9.186.000                              | 17.658.083                      | 64.536                     | 11      | 63.022                                       | 00:00:29    |
 
 
-
+*Note: Some revisions are not present because they were manual backup runs between scheduled hours, with no changes in the repository.*
 
 
 
