@@ -52,7 +52,7 @@ The same chart above, but without the big negative bar on day 4, just to improve
 
 * The orange rectangle in Figure 4 shows a recurrent backup behavior on "normal use" days, that is, **for each increase in the repository, storage increases (on average) 14 times the increment of the repository**.
 
-* Deleting messages also represent an increase in storage, since a lot of new chunks seems do be generated.
+* Deleting messages also represent an increase in storage (day 2: ```22.374.000```  =>  day 3: ```24.324.000```), since a lot of new chunks seems do be generated (```All chunks: 19620 total, 1404 new```).
 
 ## A plus
 
