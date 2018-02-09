@@ -29,6 +29,8 @@ On the 3rd day, a lot of messages were deleted, and the backup grew almost 2Gb, 
 
 Then, on the 4th day, the account was removed, and the repository (obviously) dropped about 8Gb (approximately the size of the account), but there were about 140 Mb of upload.
 
+It's worth noting that deleting the messages and deleting the account are not equivalent operations. When the messages are deleted, they are deleted "inside" the mbox files, but they remain there, only the index changes. When the account is deleted, all related mbox files are effectively deleted.
+
 In the following days the include / exclude patterns have been improved, and the graph shows the backup reduction to about 9 Gb. Basically, redundant files were no longer processed. Ex: "starred" sets, which have a copy of the original messages marked with a "star" (see Gmail).
 
 The first graph shows that even with decreasing repository size (with the removal of files on the third day), the storage space does not immediately reduce without a ```prune```, which is obvious at first, but not all people realize this.
