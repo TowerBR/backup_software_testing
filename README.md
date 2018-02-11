@@ -57,7 +57,7 @@ Duplicacy with 3 jobs:
 
 **To be executed:**
  
-7. Test #7:  
+7. Test #7: 
 Multimedia files  
 Duplicacy with 1 Mb variable chunks 
 
