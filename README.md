@@ -56,12 +56,16 @@ Duplicacy with 3 jobs:
     - database (1Mb fixed chunks) + the rest (1Mb variable chunks)  
 
 **To be executed:**
+ 
+7. Test #7:  
+Multimedia files  
+Duplicacy with 1 Mb variable chunks 
 
-7. Test #7:
+8. Test #8:
 Veracrypt volume  
 Duplicacy with ????
 
-8. Test #8:  
+9. Test #9:  
 VirtualBox VM's  
 Duplicacy with ????
 
