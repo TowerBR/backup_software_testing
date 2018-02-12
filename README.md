@@ -47,15 +47,14 @@ Thunderbird profile (Mbox and SQLite files)
 Duplicacy with 1 Mb variable chunks   
 [(test_05_Thunderbird_Duplicacy.md](http://bit.ly/2EbdciE) above)  
 
-**Executing:**
-
 6. Test #6:
 Thunderbird profile (Mbox and SQLite files)  
 Duplicacy with 3 jobs:  
     - whole profile with 1 Mb variable chunks  vs.  
     - database (1Mb fixed chunks) + the rest (1Mb variable chunks)  
-
-**To be executed:**
+[(test_06_Thunderbird_Duplicacy_single_or_separate_storage_setup.md](http://bit.ly/2BpdU95) above)  
+  
+  **To be executed:**
  
 7. Test #7: 
 Multimedia files  

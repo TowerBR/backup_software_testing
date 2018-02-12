@@ -2,13 +2,13 @@
 
 ## Objective
 
-We have seen from test # 4 that the best configuration for database backup is to use the 1M **fixed** chunk.
+We have seen from test # 4 that the best configuration for database backup is to use 1M **fixed** chunk.
 
-On the other hand, it seems that the best setting for the other file types is 1M **variable**.
+On the other hand, it seems that the best setting for the other file types is 1M **variable** chunks.
 
-In this test we will use a repository with mbox and SQLite files (a Thunderbird profile), that is, files of both types.
+In this test we will use a repository with *Mbox* and SQLite files (a Thunderbird profile), that is, files of both types.
 
-So the purpose of this test is to evaluate whether it is worth setting up 2 jobs, one with fixed chunks (for SQL files) and others with variables (for the rest), comparing them to a job for all files, with variable chunk. 
+So the purpose of this test is to evaluate whether it is worth setting up 2 jobs, one with fixed chunks (for SQL files) and other with variables (for the rest), comparing them with a single job for all files, with variable chunk. 
 
 That is:
 
@@ -16,13 +16,13 @@ That is:
 
 ## Test parameters
 
-* Repository: A Thunderbird profile folder, with ~23 Gb, of which the Mbox files represents 19 Gb (82%), and the largest SQLite file has approximately 450 Mb.
+* Repository: a Thunderbird profile folder, with ~23 Gb, of which the Mbox files represents 19 Gb (82%), and the largest SQLite file has approximately 450 Mb.
 * Storage: Three local folders
-	* one for the "complete" job with 1M variable chunks
-	* the other two for "remainder" (1M var) and "DB" (1M fix) jobs. 
-* the two jobs were configured, via ```filters``` file, to exclude the databases (in the first) and include *only* the databases (in the second).
-	* in the first: ```e:(?i).*.sqlite*$``` and ```i:.*``` (include everything else)
-	* in the second: ```i:(?i).*.sqlite*$```
+	* one for the "**complete**" job with 1M variable chunks
+	* the other two for "**remainder**" (1M var) and "**DB**" (1M fix) jobs. 
+* The jobs were configured, via ```filters``` file, to exclude the databases ("**remainder**") and include *only* the databases ("**DB**").
+	* "**remainder**": ```e:(?i).*.sqlite*$``` and ```i:.*``` (include everything else)
+	* "**DB**": ```i:(?i).*.sqlite*$```
 	
 ## Method
 
@@ -33,7 +33,7 @@ That is:
 
 ## Results
 
-In the first days, comparing the size of the "complete" backup storage (gray) with the sum of the storage of the "remainder" (blue) and "DB" (orange) backups, you do not see much difference:
+In the first days, comparing the **size** of the "complete" backup **storage** (gray) with the sum of the storage of the "remainder" (blue) and "DB" (orange) backups, you do not see much difference:
 
 ![Graph01][1]
 
@@ -45,7 +45,8 @@ On the other hand, the **running time** showed variable results. But I understan
 
 ![Graph03][3]
 
-On the 5th day, many messages were deleted, and job performance was similar. On the 6th day, back to normal use, and performance came back to look like the early days, with the performance of "separate" jobs being better than the "single" job.
+On the 5th day, many messages were deleted, and jobs performance [completed x (remainder + DB)] was similar.  
+On the 6th day, back to normal use, and performance came back to look like the early days, with the performance of "separate" jobs being better than the "single" job.
 
 **UPLOADS:**
 
@@ -56,7 +57,7 @@ On the 5th day, many messages were deleted, and job performance was similar. On 
 
 ![Graph05][5]
 
-*It's worth noting that when the messages are deleted, they are deleted "inside" the mbox files, but they remain there, only the index changes.*
+*It's worth noting that when messages are deleted, they are deleted "inside" the mbox files, but they remain there, only the index changes.*
 
 ## Conclusions
 
