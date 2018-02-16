@@ -78,13 +78,13 @@ Another aspect to note is the relationship between size increasing of the reposi
 
 ## 
 
-  [0]: images/teste06/scheme.png
-  [1]: images/teste06/graph01.png
-  [2]: images/teste06/graph02.png
-  [3]: images/teste06/graph03.png  
-  [4]: images/teste06/graph04.png  
-  [5]: images/teste06/graph05.png  
-  [6]: images/teste06/graph06.png    
+  [0]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test06/scheme.png
+  [1]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test06/graph01.png
+  [2]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test06/graph02.png
+  [3]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test06/graph03.png  
+  [4]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test06/graph04.png  
+  [5]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test06/graph05.png  
+  [6]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test06/graph06.png    
   
 
 [![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_06?pixel)](https://github.com/igrigorik/ga-beacon)

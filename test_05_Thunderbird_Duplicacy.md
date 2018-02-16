@@ -72,13 +72,13 @@ The blue blocks are the Mbox files, and the big green block below represents the
 
 ## 
 
-  [1]: images/teste05/tb1.png
-  [2]: images/teste05/tb2.png
-  [3]: images/teste05/tb3.png 
-  [4]: images/teste05/tb4.png 
-  [5]: images/teste05/tb5.png 
-  [6]: images/teste05/tb_source_editado.png 
-  [7]: images/teste05/tb_restore_editado.png 
+  [1]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test05/tb1.png
+  [2]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test05/tb2.png
+  [3]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test05/tb3.png 
+  [4]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test05/tb4.png 
+  [5]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test05/tb5.png 
+  [6]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test05/tb_source_editado.png 
+  [7]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test05/tb_restore_editado.png 
 
 ## Full data
 
