@@ -41,6 +41,9 @@ However, when evaluating **uploads**, the performance of "separate" jobs is cons
 
 ![Graph02][2]
 
+**But** there is another important aspect: the databases have a total size of ~ 200 Mb and the remaining files ~ 7 **Gb**, so the DB uploads represent on average about **16%** of their size and remainder about **0.7%**. That is, although they have similar absolute sizes, the uploads of the remaining files are relatively much smaller.
+
+
 On the other hand, the **running time** showed variable results. But I understand that this time can be affected by more variables (in the computer itself). Even though I checked the Windows logs, I didn't find anything different, so I couldn't identify the reasons.
 
 ![Graph03][3]
