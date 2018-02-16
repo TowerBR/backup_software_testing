@@ -59,11 +59,19 @@ On the 6th day, back to normal use, and performance came back to look like the e
 
 *It's worth noting that when messages are deleted, they are deleted "inside" the mbox files, but they remain there, only the index changes.*
 
+Another aspect to note is the relationship between size increasing of the repository and size increasing of the storage. We can see in the graph below that storage increases from **5 to 26** times the increase of the repository.
+
+
+![Graph06][6]
+
+
+
+
 ## Conclusions
 
 * It is clear that for normal daily use it is better to have separate jobs / settings for database files (with fixed chunls) and for other files (with variable chunks). When "exceptional" operations are performed, the performance of the two solutions is approximately equivalent.
 
-
+* Neither of the configurations is fully suitable for backing up a mixed repository (text and SQL files), as the increase in storage is much bigger than the repository increase. Even with an aggressive prune policy, the increase in storage will be exponential. 
 
 ## 
 
@@ -72,7 +80,8 @@ On the 6th day, back to normal use, and performance came back to look like the e
   [2]: images/teste06/graph02.png
   [3]: images/teste06/graph03.png  
   [4]: images/teste06/graph04.png  
-  [5]: images/teste06/graph05.png   
+  [5]: images/teste06/graph05.png  
+  [6]: images/teste06/graph06.png    
   
 
 [![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_06?pixel)](https://github.com/igrigorik/ga-beacon)

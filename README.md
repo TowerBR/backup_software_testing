@@ -24,35 +24,36 @@ The first test I registered here was # 4, only with Duplicacy. The previous ones
 Evernote repository  
 Duplicati default configuration vs.  
 Duplicacy default configuration  
-[(Duplicati forum)](http://bit.ly/2sdVLrX)
+([Duplicati forum)](http://bit.ly/2sdVLrX)
 
 2. Test #2:
 Evernote repository  
 Duplicacy with 1M kb fixed chunks and 128 kb fixed chunks   
-[(Duplicacy forum, starting at Jan 22 6:53AM 2018)](http://bit.ly/2E8B9H9)  
+([Duplicacy forum, starting at Jan 22 6:53AM 2018)](http://bit.ly/2E8B9H9)  
 
 3. Test #3:
 Evernote repository  
 Duplicati default configuration vs.  
 Duplicacy with 128 kb fixed chunks  
-[(Duplicati forum)](http://bit.ly/2nOCwQh)
+([Duplicati forum)](http://bit.ly/2nOCwQh)
 
 4. Test #4:
 Evernote repository  
 Duplicacy with 1 Mb fixed chunks vs. 1 Mb variable chunks  
-[(test_04_Evernote_Duplicacy.md](http://bit.ly/2E5Wf9a) above)
+([test_04_Evernote_Duplicacy.md](http://bit.ly/2E5Wf9a) above)
 
 5. Test #5:
 Thunderbird profile (Mbox and SQLite files)  
 Duplicacy with 1 Mb variable chunks   
-[(test_05_Thunderbird_Duplicacy.md](http://bit.ly/2EbdciE) above)  
+([test_05_Thunderbird_Duplicacy.md](http://bit.ly/2EbdciE) above)  
 
 6. Test #6:
 Thunderbird profile (Mbox and SQLite files)  
-Duplicacy with 3 jobs:  
+Duplicacy with 3 jobs:
     - whole profile with 1 Mb variable chunks  vs.  
     - database (1Mb fixed chunks) + the rest (1Mb variable chunks)  
-[(test_06_Thunderbird_Duplicacy_single_or_separate_storage_setup.md](http://bit.ly/2BpdU95) above)  
+	
+    ([test_06_Thunderbird_Duplicacy_single_or_separate_storage_setup.md](http://bit.ly/2BpdU95) above)  
   
   **To be executed:**
  
