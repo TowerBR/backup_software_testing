@@ -1,14 +1,14 @@
-## Test #4
+## Test #3
 
 ## Objective
 
-This is a test to compare Duplicacy performance backing up a Evernote repository with variable and fixed chunks. The objective is to find out which of the two chunk settings (variable or fixed) best applies to back up a large file that has small daily modifications.
+Compare the performance of Duplicati and Duplicacy in the backup of an Evernote repository, which basically consists (90%) of a SQLite database.
 
 ## Test parameters
 
 * Repository: An Evernote data folder, with ~3.47 Gb, of which the database (*exb* file) represents 3.38 Gb (97%).
-* Storage: Two local folders.
-* Chunks: 1 Mb variable and 1 Mb fixed (two backup jobs).
+* Storage: Two local folders, one for Duplicati e another for Duplciacy.
+* Chunks: both 1 Mb variable default size (Duplicati: ____ kb and Duplicati: 4M).
 
 ## Method
 
@@ -57,12 +57,12 @@ The result was that 2,664 chunks (out of a total of 2,667) were reuploaded:
 
 ## 
 
-  [1]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test04/evernote1.png
-  [2]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test04/evernote2.png
-  [3]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test04/evernote3.png  
-  [4]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test04/evernote4.png  
-  [5]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test04/evernote5.png  
-  [6]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test04/evernote6.png  
+  [1]: images/teste04/evernote1.png
+  [2]: images/teste04/evernote2.png
+  [3]: images/teste04/evernote3.png  
+  [4]: images/teste04/evernote4.png  
+  [5]: images/teste04/evernote5.png  
+  [6]: images/teste04/evernote6.png  
 
 ## Full data
 
