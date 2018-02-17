@@ -2,7 +2,7 @@
 
 ## Objective
 
-Evaluate the performance of branches developed by Kai Risku:
+The purpose of this test is evaluate the performance of branches developed by Kai Risku running backups of a repository with Mbox and SQLite files (a Thunderbird profile):
 
 * [hash_window](https://github.com/kairisku/duplicacy/tree/hash_window)
 * [file_boundaries](https://github.com/kairisku/duplicacy/tree/file_boundaries)
