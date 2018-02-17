@@ -17,7 +17,7 @@ That is:
 ## Test parameters
 
 * Repository: a Thunderbird profile folder, with ~23 Gb, of which the Mbox files represents 19 Gb (82%), and the largest SQLite file has approximately 450 Mb.
-* Storage: Three local folders
+* Storages - three local folders:
 	* one for the "**complete**" job with 1M variable chunks
 	* the other two for "**remainder**" (1M var) and "**DB**" (1M fix) jobs. 
 * The jobs were configured, via ```filters``` file, to exclude the databases ("**remainder**") and include *only* the databases ("**DB**").
