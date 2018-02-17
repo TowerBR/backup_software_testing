@@ -19,7 +19,7 @@ The purpose of this test is evaluate the performance of branches developed by Ka
 ## Method
 
 * Perform the full initial backup of the entire folder using the three jobs.
-* Proceed with normal daily use for a few days, that is, add/edit some notes, representing a few kb of changes per day, and run a daily incremental backup.* On the last day, perform a "compacting" (Thunderbird command) of the files.
+* Proceed with normal daily use for a few days, that is, add/edit some notes, representing a few kb of changes per day, and run a daily incremental backup.
 * At the end, run the internal "optimize" command from Evernote to evaluate the impact.
 * The repository and storage sizes were measured with Rclone [(www.rclone.org)](http://www.rclone.org).
 * No ```prune``` command will be executed.
