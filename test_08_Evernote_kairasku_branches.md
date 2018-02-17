@@ -34,7 +34,7 @@ With respect to the total number of chunks, the performance of the **hash_window
 
 ![Graph02][2]
 
-But when we evaluate the new daily chunks this difference is smaller, that is, the difference is due to the initial generation of chunks.
+But when we evaluate the new daily chunks this difference is smaller, that is, the difference seems to be due to the initial generation of chunks.
 
 ![Graph03][3]
 
@@ -54,7 +54,7 @@ And the same applies to new daily chunks:
 
 ![Graph07][7]
 
-But, the total chunks showed a completely different behavior:
+**But**, the total chunks showed a completely different behavior:
 
 ![Graph08][8]
 
@@ -64,7 +64,7 @@ By my understanding, although all the chunks were replaced in the 3 jobs, the **
 
 * In this test, as in Test 7, the **hash window** compilation showed a slightly better performance.
 
-* The Evernote database optimization command, which basically consists of a general reindexing, again strongly impacted the backup. This is only feasible if the Duplicacy prune command is synchronized with the Evernote optimization command.
+* The Evernote database optimization command, which basically consists of a general reindexing, strongly impacted the results again. The backup is only feasible if the Duplicacy prune command is synchronized with the Evernote optimization command.
 
 ## 
 
@@ -81,35 +81,34 @@ By my understanding, although all the chunks were replaced in the 3 jobs, the **
 
 | Day | Repository   size     by Rclone | Repository   increase     (kb) |
 |-----|---------------------------------|--------------------------------|
-| 01  | 3.470.924                       |                                |
-| 02  | 3.471.599                       | 675                            |
-| 03  | 3.471.656                       | 57                             |
-| 04  | 3.471.738                       | 82                             |
-| 05  | 3.473.386                       | 1.648                          |
+|  01 |                       3.470.924 |                                |
+|  02 |                       3.471.599 |                            675 |
+|  03 |                       3.471.656 |                             57 |
+|  04 |                       3.471.738 |                             82 |
+|  05 |                       3.473.386 |                          1.648 |
 
 | DO - storage size by Rclone | DO - storage increase | Revision | DO - all chunks | DO - new chunks | DO - uploaded | backup time - Complete (1M VAR) |
 |-----------------------------|-----------------------|----------|-----------------|-----------------|---------------|---------------------------------|
-| 2.942.939                   |                       | 1        | 2.640           | 2.618           | 2.798.000     | 05:17                           |
-| 2.964.553                   | 21.614                | 2        | 2.642           | 27              | 21.107        | 01:07                           |
-| 2.994.070                   | 29.517                | 3        | 2.651           | 40              | 28.824        | 01:46                           |
-| 3.023.966                   | 29.896                | 4        | 2.650           | 39              | 29.194        | 01:32                           |
-| 5.967.668                   | 2.943.702             | 5        | 2.688           | 2.681           | 2.807.000     | 04:16                           |
+|                   2.942.939 |                       |     1    |           2.640 |           2.618 |     2.798.000 |              05:17              |
+|                   2.964.553 |                21.614 |     2    |           2.642 |              27 |        21.107 |              01:07              |
+|                   2.994.070 |                29.517 |     3    |           2.651 |              40 |        28.824 |              01:46              |
+|                   3.023.966 |                29.896 |     4    |           2.650 |              39 |        29.194 |              01:32              |
+|                   5.967.668 |             2.943.702 |     5    |           2.688 |           2.681 |     2.807.000 |              04:16              |
   
 | HW - storage size by Rclone | HW - storage increase | Revision | HW - all chunks | HW - new chunks | HW - uploaded | backup time - DB (1M FIX) |
 |-----------------------------|-----------------------|----------|-----------------|-----------------|---------------|---------------------------|
-| 2.942.324                   |                       | 1        | 2.643           | 2.622           | 2.795.000     | 04:41                     |
-| 2.959.113                   | 16.789                | 2        | 2.647           | 25              | 16.395        | 01:22                     |
-| 2.985.043                   | 25.930                | 3        | 2.648           | 35              | 25.321        | 01:32                     |
-| 3.009.486                   | 24.443                | 4        | 2.648           | 33              | 23.869        | 01:30                     |
-| 5.952.276                   | 2.942.790             | 5        | 2.664           | 2.655           | 2.806.000     | 06:20                     |
-  
+|                   2.942.324 |                       |     1    |           2.643 |           2.622 |     2.795.000 |           04:41           |
+|                   2.959.113 |                16.789 |     2    |           2.647 |              25 |        16.395 |           01:22           |
+|                   2.985.043 |                25.930 |     3    |           2.648 |              35 |        25.321 |           01:32           |
+|                   3.009.486 |                24.443 |     4    |           2.648 |              33 |        23.869 |           01:30           |
+|                   5.952.276 |             2.942.790 |     5    |           2.664 |           2.655 |     2.806.000 |           06:20           |  
+
 | FB - storage size by Rclone | FB - storage increase | Revision | FB - all chunks | FB - new chunks | FB - uploaded | backup time - DB (1M FIX) |
 |-----------------------------|-----------------------|----------|-----------------|-----------------|---------------|---------------------------|
-| 2.942.453                   |                       | 1        | 2.691           | 2.643           | 2.791.000     | 03:17                     |
-| 2.962.382                   | 19.929                | 2        | 2.694           | 29              | 19.461        | 01:07                     |
-| 2.989.558                   | 27.176                | 3        | 2.700           | 41              | 26.538        | 01:22                     |
-| 3.016.707                   | 27.149                | 4        | 2.697           | 33              | 26.511        | 01:17                     |
-| 5.960.044                   | 2.943.337             | 5        | 2.629           | 2.620           | 2.806.000     | 04:38                     |
-  
+|                   2.942.453 |                       |     1    |           2.691 |           2.643 |     2.791.000 |           03:17           |
+|                   2.962.382 |                19.929 |     2    |           2.694 |              29 |        19.461 |           01:07           |
+|                   2.989.558 |                27.176 |     3    |           2.700 |              41 |        26.538 |           01:22           |
+|                   3.016.707 |                27.149 |     4    |           2.697 |              33 |        26.511 |           01:17           |
+|                   5.960.044 |             2.943.337 |     5    |           2.629 |           2.620 |     2.806.000 |           04:38           |  
   
 [![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_08?pixel)](https://github.com/igrigorik/ga-beacon)
