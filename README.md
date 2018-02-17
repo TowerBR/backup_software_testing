@@ -55,17 +55,39 @@ Duplicacy with 3 jobs:
 	
     ([test_06_Thunderbird_Duplicacy_single_or_separate_storage_setup.md](http://bit.ly/2BpdU95) above)  
   
-  **To be executed:**
+7. Test #7:
+Thunderbird profile (Mbox and SQLite files) with Kai Rasku branches 
+Duplicacy with 3 jobs:
+	- one for the "Duplicacy official" compilation (DO)
+	- one for the "hash_window" compilation (HW)
+	- one for the "file_boundaries" compilation (FB)
+	
+    ([test_07_Thunderbird_kairasku_branches.md](http://bit.ly/2GiIYH1) above)  
+  
+8. Test #8:
+Evernote repository (Mbox and SQLite files) with Kai Rasku branches 
+Duplicacy with 3 jobs:
+	- one for the "Duplicacy official" compilation (DO)
+	- one for the "hash_window" compilation (HW)
+	- one for the "file_boundaries" compilation (FB)
+	
+    ([test_08_Evernote_kairasku_branches.md](http://bit.ly/2EyBxLv) above)  
+  
  
-7. Test #7: 
+    
+  
+**To be executed:**
+ 
+  
+9. Test #9: 
 Multimedia files  
 Duplicacy with 1 Mb variable chunks 
 
-8. Test #8:
+10. Test #10:
 Veracrypt volume  
 Duplicacy with ????
 
-9. Test #9:  
+11. Test #11:  
 VirtualBox VM's  
 Duplicacy with ????
 
