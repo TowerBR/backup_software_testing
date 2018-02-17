@@ -63,6 +63,8 @@ And finally, an important point to evaluate, especially in the case of cloud sto
 
 * The **hash window** build seems to actually have slightly better performance for this use case.
 
+* The storage of the backup with all files (databases and txt files) grows from 3 to 21 (!) times the repository increase, but when we exclude the databases from backup, the increase in storage is only 1.2 to 2.5 times. We conclude then that the use of variable chunks is not really the best option when databases are involved, making backup unfeasible. On the other hand this configuration applies well to the other types of files.
+
 ## 
 
   [1]: https://raw.githubusercontent.com/TowerBR/backup_software_testing/master/images/test07/graph01.png
