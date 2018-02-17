@@ -65,7 +65,7 @@ Duplicacy with 3 jobs:
     ([test_07_Thunderbird_kairasku_branches.md](http://bit.ly/2GiIYH1) above)  
   
 8. Test #8:
-Evernote repository (Mbox and SQLite files) with Kai Rasku branches 
+Evernote repository (~SQLite file) with Kai Rasku branches 
 Duplicacy with 3 jobs:
 	- one for the "Duplicacy official" compilation (DO)
 	- one for the "hash_window" compilation (HW)
