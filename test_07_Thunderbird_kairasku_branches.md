@@ -78,14 +78,14 @@ And finally, an important point to evaluate, especially in the case of cloud sto
 
 Several other analyzes can be made, then I provide the complete data below:
 
-| Day | Repository   size     by Rclonee | Repository   increase |
-|-----|----------------------------------|-----------------------|
-| 01  | 17.655.687                       |                       |
-| 02  | 17.661.631                       | 5.944                 |
-| 03  | 17.676.296                       | 14.665                |
-| 04  | 17.691.496                       | 15.200                |
-| 05  | 17.696.373                       | 4.877                 |
-| 06  | 17.660.070                       | -36.303               |
+| Day | Repository   size     by Rclone | Repository   increase |
+|-----|---------------------------------|-----------------------|
+| 01  | 17.655.687                      |                       |
+| 02  | 17.661.631                      | 5.944                 |
+| 03  | 17.676.296                      | 14.665                |
+| 04  | 17.691.496                      | 15.200                |
+| 05  | 17.696.373                      | 4.877                 |
+| 06  | 17.660.070                      | -36.303               |
 
 | DO - storage size by Rclone | DO - storage increase | Revision | DO - all chunks | DO - new chunks | DO - uploaded | backup time |
 |-----------------------------|-----------------------|----------|-----------------|-----------------|---------------|-------------|
