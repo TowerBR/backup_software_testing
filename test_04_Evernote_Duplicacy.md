@@ -6,7 +6,7 @@ This is a test to compare Duplicacy performance backing up a Evernote repository
 
 ## Test parameters
 
-* Repository: An Evernote data folder, with ~3.47 Gb, of which the database (*exb* file) represents 3.38 Gb (97%).
+* Repository: an Evernote data folder, with ~3.47 Gb, of which the database (*exb* file) represents 3.38 Gb (97%).
 * Storage: Two local folders.
 * Chunks: 1 Mb variable and 1 Mb fixed (two backup jobs).
 
