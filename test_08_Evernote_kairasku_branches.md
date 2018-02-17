@@ -80,7 +80,7 @@ By my understanding, although all the chunks were replaced in the 3 jobs, the **
   ## Full data
 
 | Day | Repository   size     by Rclone | Repository   increase     (kb) |
-|-----|---------------------------------|--------------------------------|
+|:---:|                            ---: |-------------------------------:|
 |  01 |                       3.470.924 |                                |
 |  02 |                       3.471.599 |                            675 |
 |  03 |                       3.471.656 |                             57 |
