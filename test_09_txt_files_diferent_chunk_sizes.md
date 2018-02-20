@@ -2,7 +2,7 @@
 
 ## Objective
 
-The purpose of this test is to evaluate how chunks are generated with different range settings. More specifically, how a wide range (128 kb - 10 Mb) affects chunks generation.
+The purpose of this test is to evaluate how chunks are generated with different range settings. More specifically, how a wide range (32 kb - 10 Mb) affects chunks generation.
 
 ## Test parameters
 
