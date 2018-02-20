@@ -73,6 +73,14 @@ Duplicacy with 3 jobs:
 	
     ([test_08_Evernote_kairasku_branches.md](http://bit.ly/2EyBxLv) above)  
   
+9. Test #9:
+Test of wide range chunk setup
+Duplicacy with 2 jobs:
+	- one with default chunk setting: ```-c 1M -min 250kb -max 4M```
+	- another with "wide" chunk setting: ```-c 1M -min 32kb -max 10M```
+	
+    ([test_09_txt_files_diferent_chunk_sizes.md](http://bit.ly/2ocMsE7) above)  
+  
  
     
   
