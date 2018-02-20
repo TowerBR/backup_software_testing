@@ -97,4 +97,4 @@ The result was that 2,664 chunks (out of a total of 2,667) were reuploaded:
 | 3.314.000                                | 6.107.636                       | 2.938.084                  | 5       | 2.801.000                                    | 00:03:20    |
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_04?pixel)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-113708097-1/test_03?pixel)](https://github.com/igrigorik/ga-beacon)
