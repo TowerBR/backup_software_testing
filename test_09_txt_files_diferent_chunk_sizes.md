@@ -17,7 +17,7 @@ The purpose of this test is to evaluate how chunks are generated with different 
 
 ## Results
 
-The chart below shows the distribution of file sizes. 
+The chart below shows the distribution of original (repository) file sizes. 
 
 Note that the scale of the X axis is not linear:
 - 0 to 1,000 kb more detailed (few kb increments)
