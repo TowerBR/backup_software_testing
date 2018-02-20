@@ -56,7 +56,7 @@ Duplicacy with 3 jobs:
     ([test_06_Thunderbird_Duplicacy_single_or_separate_storage_setup.md](http://bit.ly/2BpdU95) above)  
   
 7. Test #7:
-Thunderbird profile (Mbox and SQLite files) with Kai Rasku branches 
+Thunderbird profile (Mbox and SQLite files) with Kai Rasku branches  
 Duplicacy with 3 jobs:
 	- one for the "Duplicacy official" compilation (DO)
 	- one for the "hash_window" compilation (HW)
@@ -65,7 +65,7 @@ Duplicacy with 3 jobs:
     ([test_07_Thunderbird_kairasku_branches.md](http://bit.ly/2GiIYH1) above)  
   
 8. Test #8:
-Evernote repository (~SQLite file) with Kai Rasku branches 
+Evernote repository (~SQLite file) with Kai Rasku branches   
 Duplicacy with 3 jobs:
 	- one for the "Duplicacy official" compilation (DO)
 	- one for the "hash_window" compilation (HW)
@@ -74,7 +74,7 @@ Duplicacy with 3 jobs:
     ([test_08_Evernote_kairasku_branches.md](http://bit.ly/2EyBxLv) above)  
   
 9. Test #9:
-Test of wide range chunk setup
+Test of wide range chunk setup  
 Duplicacy with 2 jobs:
 	- one with default chunk setting: ```-c 1M -min 250kb -max 4M```
 	- another with "wide" chunk setting: ```-c 1M -min 32kb -max 10M```
