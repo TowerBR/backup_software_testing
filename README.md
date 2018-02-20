@@ -87,15 +87,15 @@ Duplicacy with 2 jobs:
 **To be executed:**
  
   
-9. Test #9: 
+10. Test #10: 
 Multimedia files  
 Duplicacy with 1 Mb variable chunks 
 
-10. Test #10:
+11. Test #11:
 Veracrypt volume  
 Duplicacy with ????
 
-11. Test #11:  
+12. Test #12:  
 VirtualBox VM's  
 Duplicacy with ????
 
